@@ -1,3 +1,7 @@
+*{
+  margin:0;
+  padding:0;
+}
 .head1 {
   background-color: black;
   height: 10px;
