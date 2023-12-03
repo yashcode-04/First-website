@@ -1,0 +1,10 @@
+header{
+    height: 20px;
+    background-color: black;
+}
+.backimag{
+    background-color: black;
+    height: 100vh;
+    background-image: url('hacker.gif');
+    background-size: cover;
+}

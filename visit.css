@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("./143.jpg");
+  background-size: cover;
+  height: 100vh;
+object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header button{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    width: 150px;
+    height: 200px;
+    border-radius: 40px 5px;
+    box-shadow: 2px 5px 15px whitesmoke;
+    margin: 10px;
+}
+
+.profile:hover{
+    /* cursor: pointer; */
+    scale: 1.2;
+    transition: all .2s ease-in-out;
+}
+.profile img{
+    height: 110px;
+    object-fit:cover;
+}
+button{
+    background-color: rgb(236, 62, 120);
+    border: 1px solid gainsboro;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
+}

@@ -1,0 +1,236 @@
+.head1 {
+  background-color: black;
+  height: 10px;
+  border: 50px;
+}
+
+.head-img {
+  background-color: black;
+  height: 900px;
+  background-image: url("1.2");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 0.9rem;
+}
+/* searach panel all          searach panel all             searach panel all           searach panel all    */
+.searchbody{
+    display: flex;
+    background-color: pink;
+    justify-content: space-evenly;
+    height: 45px;
+    width: 500px;
+    position: absolute;
+    top: 63px;
+    left: 250px;
+    border-radius: 4px;
+}
+.searchsel{
+   background-color: #f3f3f3;
+   width: 50px;
+   text-align: center;
+   border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   border: none;
+}
+
+.searchin{
+    width: 100%;
+    font-size: 1.2rem;
+    border: none;
+}
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background:linear-gradient(to right, #fe03b4, #ee0202) ;
+    border-radius: 4px;
+}
+
+
+button {
+  background: linear-gradient(to right, #fe03b4, #ee0202);
+  width: 150px;
+  font-weight: 800;
+  height: 45px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: white;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 63px;
+  right: 100px;
+  overflow: hidden;
+}
+
+/* BUTTTONSSSSS                   BUTTTONSSSSS                  BUTTTONSSSSS                       BUTTTONSSSSS*/
+
+button a {
+  text-decoration: none;
+}
+
+.head-logo {
+  background-image: url("vecteezy_hacker-mascot-for-sports-and-esports-logo_.jpg");
+  border-top: 2px solid;
+  position: absolute;
+  left: 30px;
+  top: 35px;
+  border: 3px solid #ee0202;
+  border-top-right-radius: 30%;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.visit {
+  font-weight: bold;
+  font-size: 1.5rem;
+  height: 45px;
+  width: 140px;
+  background: linear-gradient(to right, #fe03b4, #ee0202);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 63px;
+  right: 480px;
+  overflow: hidden;
+}
+.contact {
+  font-weight: bolder;
+  font-size: 1rem;
+  height: 45px;
+  width: 140px;
+  background: linear-gradient(to right, #fe03b4, #ee0202);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 63px;
+  right: 310px;
+  overflow: hidden;
+}
+.apply {
+  font-weight: bold;
+  font-size: 1.5rem;
+  height: 45px;
+  width: 140px;
+  background: linear-gradient(to right, #fe03b4, #ee0202);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 63px;
+  right: 650px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.give {
+  font-weight: bold;
+  font-size: 1.5rem;
+  height: 45px;
+  width: 140px;
+  background: linear-gradient(to right, #fe03b4, #ee0202);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: white;
+  border-color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 63px;
+  right: 820px;
+  overflow: hidden;
+}
+
+/* WHITE SLASH BUTTONS             WHITE SLASH BUTTONS            WHITE SLASH BUTTONS       WHITE SLASH BUTTONS  */
+
+.style-bt:before {
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 20px;
+  background: #f3f3f3;
+  box-shadow: 0 0 10px #fff;
+  filter: blur(1px);
+  opacity: 0.9;
+  top: -30px;
+  transition: 0.7s;
+  transform: rotate(-20deg) translateX(-60px);
+}
+.style-bt:hover:before {
+  transform: rotate(-20deg) translate(140px, 70px);
+}
+
+.block:before {
+  content: "";
+  position: absolute;
+  height: 300px;
+  width: 30px;
+  background: #f3f3f3;
+  box-shadow: 0 0 10px #fff;
+  filter: blur(1px);
+  opacity: 0.9;
+  top: -60px;
+  transition: 0.7s;
+  transform: rotate(-30deg) translateX(-120px);
+}
+
+.block:hover:before {
+  transform: rotate(-30deg) translate(150px, 130px);
+}
+
+/* BRDER HOVER COLOR         BRDER HOVER COLOR                BRDER HOVER COLOR              BRDER HOVER COLOR*/
+
+.border1:hover {
+  border: 5px solid white;
+}
+.border2:hover {
+  border: 5px solid  #ee0202;
+}
+
+/* MENU OPTION SHINING              MENU OPTION SHINING             MENU OPTION SHINING                     MENU OPTION SHINING  */
+
+.Scroll:before {
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 20px;
+  background: #f3f3f3;
+  box-shadow: 0 0 10px #fff;
+  filter: blur(1px);
+  opacity: 0.9;
+  top: -30px;
+  transition: 0.7s;
+  transform: rotate(-20deg) translateX(-60px);
+}
+.Scroll:hover:before {
+  transform: rotate(-20deg) translate(140px, 70px);
+}
+/*
+            BODY 1                  BODY 1                      BODY 1                     BODY 1 */
